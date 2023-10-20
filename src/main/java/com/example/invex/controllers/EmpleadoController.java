@@ -36,12 +36,14 @@ public class EmpleadoController {
     }
 
     @PostMapping()
-    public ArrayList<EmpleadoModel> crearEmpleado(@RequestBody ArrayList<EmpleadoModel> empleados){
+    public ArrayList<EmpleadoModel> crearEmpleado(@RequestBody ArrayList<EmpleadoModel> empleados, @RequestHeader HttpHeaders headers){
+        logger.info("Header values: {}", headers);
         return this.empleadoService.crearEmpleados(empleados);
     }
 
     @GetMapping()
-    public ArrayList<EmpleadoModel> obtenerEmpleados(){
+    public ArrayList<EmpleadoModel> obtenerEmpleados(@RequestHeader HttpHeaders headers){
+        logger.info("Header values: {}", headers);
         return empleadoService.obtenerEmpleados();
     }
 
@@ -57,7 +59,8 @@ public class EmpleadoController {
     }
 
     @PostMapping(path = "/save")
-    public EmpleadoModel actualizarEmpleado(@RequestBody EmpleadoModel empleado){
+    public EmpleadoModel actualizarEmpleado(@RequestBody EmpleadoModel empleado,@RequestHeader HttpHeaders headers){
+        logger.info("Header values: {}", headers);
         return this.empleadoService.actualizarEmpleado(empleado);
     }
 

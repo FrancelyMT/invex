@@ -11,3 +11,15 @@
 2023-10-20 12:37:23,051 ERROR com.example.invex.controllers.EmpleadoController [http-nio-8080-exec-8] Empleado no encontrado: 2
 2023-10-20 12:37:29,958 INFO com.example.invex.controllers.EmpleadoController [http-nio-8080-exec-1] Header values: [user-agent:"PostmanRuntime/7.28.4", accept:"*/*", postman-token:"29e30a34-93e5-4d8d-8de5-7817f9c40f90", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive"]
 2023-10-20 12:37:30,003 INFO com.example.invex.controllers.EmpleadoController [http-nio-8080-exec-1] Usuario encontrado: 1
+2023-10-20 12:54:48,165 INFO com.example.invex.InvexApplication [main] Starting InvexApplication using Java 11.0.20.1 on DESKTOP-3231AO8 with PID 26360 (C:\Users\desmu\OneDrive\Documents\CURSOS\JAVA\Examen\invex\target\classes started by desmu in C:\Users\desmu\OneDrive\Documents\CURSOS\JAVA\Examen\invex)
+2023-10-20 12:54:48,165 DEBUG com.example.invex.InvexApplication [main] Running with Spring Boot v2.5.9, Spring v5.3.15
+2023-10-20 12:54:48,165 INFO com.example.invex.InvexApplication [main] No active profile set, falling back to default profiles: default
+2023-10-20 12:54:52,135 INFO com.example.invex.InvexApplication [main] Started InvexApplication in 4.425 seconds (JVM running for 5.167)
+2023-10-20 13:00:07,763 INFO com.example.invex.InvexApplication [main] Starting InvexApplication using Java 11.0.20.1 on DESKTOP-3231AO8 with PID 11592 (C:\Users\desmu\OneDrive\Documents\CURSOS\JAVA\Examen\invex\target\classes started by desmu in C:\Users\desmu\OneDrive\Documents\CURSOS\JAVA\Examen\invex)
+2023-10-20 13:00:07,763 INFO com.example.invex.InvexApplication [main] No active profile set, falling back to default profiles: default
+2023-10-20 13:00:11,549 INFO com.example.invex.InvexApplication [main] Started InvexApplication in 4.13 seconds (JVM running for 4.707)
+2023-10-20 13:00:20,313 INFO com.example.invex.controllers.EmpleadoController [http-nio-8080-exec-2] Header values: [user-agent:"PostmanRuntime/7.28.4", accept:"*/*", postman-token:"111bd935-1f91-4493-9624-df5f85fd69ba", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive"]
+2023-10-20 13:00:20,392 INFO com.example.invex.controllers.EmpleadoController [http-nio-8080-exec-2] Usuario encontrado: 1
+2023-10-20 13:38:44,697 INFO com.example.invex.InvexApplication [main] Starting InvexApplication using Java 11.0.20.1 on DESKTOP-3231AO8 with PID 16656 (C:\Users\desmu\OneDrive\Documents\CURSOS\JAVA\Examen\invex\target\classes started by desmu in C:\Users\desmu\OneDrive\Documents\CURSOS\JAVA\Examen\invex)
+2023-10-20 13:38:44,697 INFO com.example.invex.InvexApplication [main] No active profile set, falling back to default profiles: default
+2023-10-20 13:38:48,808 INFO com.example.invex.InvexApplication [main] Started InvexApplication in 4.532 seconds (JVM running for 5.157)

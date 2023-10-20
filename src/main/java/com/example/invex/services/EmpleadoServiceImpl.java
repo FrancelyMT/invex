@@ -50,8 +50,9 @@ public class EmpleadoServiceImpl implements EmpleadoService {
             empleadoRepository.deleteById(id);
             return true;
         }catch(Exception err){
-            System.out.println("ERROR ELIMINAR"+err);
+            logger.error("Empleado no encontrado: "+id);
             return false;
+            
         }
     }
 
